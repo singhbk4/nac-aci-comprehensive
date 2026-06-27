@@ -7,9 +7,9 @@ terraform {
 }
 
 provider "aci" {
-  username = "username"
-  password = "password"
-  url      = "https://apic.url"
+  username = "admin"
+  password = "Python@123"
+  url      = "https://192.168.6.111"
 }
 
 module "aci" {
